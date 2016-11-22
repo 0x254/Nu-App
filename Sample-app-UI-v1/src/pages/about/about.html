@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>Gatepass</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-slides pager >
+  <ion-slide style="background-color: #33CD5F">
+    <ion-card>
+      <ion-card-header>Pending</ion-card-header>
+      <ion-card-content>
+        <p><em>status of the pending gatepasses</em></p>
+      </ion-card-content>
+    </ion-card>
+
+     <ion-card>
+      <ion-card-header>Approved</ion-card-header>
+      <ion-card-content>
+        <p><em>status of the approved gatepasses</em></p>
+      </ion-card-content> 
+    </ion-card>
+
+     <ion-card>
+      <ion-card-header>Rejected</ion-card-header>
+      <ion-card-content>
+        <p><em>status of the rejected gatepasses</em></p>       
+      </ion-card-content>
+    </ion-card>    
+  </ion-slide>
+  
+  <ion-slide style="background-color: #33CD5F">
+    <p class="white-text">Step 1</p>
+    <h2 class="white-text">Apply new Gatepass</h2>
+     <button ion-button color="light" outline>Local Gatepass</button>
+     <button ion-button color="light" outline>Outstation Gatepass</button>
+  </ion-slide>
+  
+  <ion-slide style="background-color: #33CD5F">
+   <p class="white-text">Step 2</p>
+    <h2 class="white-text">Choose In-time/Out-time</h2>
+    <!--add time and date selection-->
+  </ion-slide>
+
+
+  <ion-slide style="background-color: #33CD5F">
+    <h2 class="white-text">Send request to ?</h2>
+    <ion-list radio-group>
+      <ion-list-header class="green-text">Avaliable Wardens</ion-list-header>
+
+      <ion-item>
+        <ion-label>Kumar Vishal</ion-label>
+        <ion-radio value="kv"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Dhirendra Rathore</ion-label>
+        <ion-radio value="dr"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Lokesh Kumar</ion-label>
+        <ion-radio value="lk"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Supratim Mitra</ion-label>
+        <ion-radio value="lk"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Kamla Rawat</ion-label>
+        <ion-radio value="kr"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Abhinav sharma</ion-label>
+        <ion-radio value="as"></ion-radio>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label>G.Mardana</ion-label>
+        <ion-radio value="gm"></ion-radio>
+      </ion-item> 
+    </ion-list>
+    <button ion-button color="light" outline>Send</button>
+  </ion-slide>
+</ion-slides>
+
+</ion-content>

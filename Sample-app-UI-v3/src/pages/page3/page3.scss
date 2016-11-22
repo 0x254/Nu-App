@@ -1,0 +1,45 @@
+page-page3 {
+    .front{
+    height:50px;
+    width:5px;
+    }
+    ion-card {
+    position: relative;
+    text-align: center;
+    }
+  .content {
+    position: absolute;
+    top: 25%;
+    font-size: 15px;
+    width: 100%;
+    color: #B12A30;
+    }
+    .attd{
+    color:black;
+    }
+
+   .responsive
+    {
+    position: absolute;
+    max-width: 90%;
+    top: 10%;
+    left: 4%;
+    }
+  .responsive:empty
+    {
+    top: 10%;
+    left: 4;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+    @media screen and (orientation: portrait) {
+      .responsive { max-width: 90%; }
+    }
+
+    @media screen and (orientation: landscape) {
+      .responsive { max-height: 10%; }
+    }
+}

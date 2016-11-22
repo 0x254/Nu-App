@@ -1,0 +1,58 @@
+page-home {
+    .table-header{
+        padding: 15px;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .day{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        padding: 15px;
+        font-weight: bold;
+        color: #32DB64;
+    }
+    .class-information{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px;
+        font-size: 15px;
+        // margin-left: 10px;
+        font-weight: normal;
+    }
+    .card-background-page{
+        ion-card {
+        position: relative;
+        text-align: center;
+        
+        }
+        .red{
+            background-color: red;
+            height: 10px;
+            width:100%;
+        }
+
+        .green{
+            background-color: green;
+            height: 10px;
+            width:100%;
+        }
+
+        .yellow{
+            background-color: yellow;
+            height: 10px;
+            width:100%;
+        }
+        .blue{
+            background-color: blue;
+            height: 10px;
+            width:100%;
+        }
+
+        .violet{
+            background-color:violet;
+            height: 10px;
+            width:100%;
+        }
+
+
+    }
+}
