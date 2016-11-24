@@ -1,24 +1,26 @@
 <ion-header>
     <ion-navbar color="primary">
-    <button ion-button menuToggle>
+    <!--<button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Login</ion-title>
+    </button>-->
+    <ion-title>Welcome To NU-App</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding class="view">
 
-<ion-content>
-  <ion-list>
-    <ion-item>
-      <ion-label floating>email id</ion-label>
-      <ion-input type="text" [(ngModel)] = "email_id"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label floating>Password</ion-label>
-      <ion-input type="password" [(ngModel)] = "password"></ion-input>
-    </ion-item>
-    <button ion-button (click)="signInUser()">Sign In</button>
-  </ion-list>
+<img src="../image/NUlogo.png" alt="NUlogo"  class="responsive" id="nulogo">
+
+
+ <!--<ion-item class="pos transparent">
+    <ion-label color="primary" floating>Email-id</ion-label>
+    <ion-input type="text"></ion-input>
+ </ion-item>
+
+ <ion-item class="pos1 transparent">
+    <ion-label color="primary" floating>Password</ion-label>
+    <ion-input type="password"></ion-input>
+ </ion-item>-->
+
+ <button ion-button block (click)="goToOtherPage()" id="btn">Sign In</button>
 </ion-content>
