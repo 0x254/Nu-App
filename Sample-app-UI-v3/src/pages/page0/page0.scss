@@ -7,6 +7,14 @@ page-page0 {
     position: relative;
     text-align: center;
     }
+    /*button{
+      padding: 0;
+      margin: 0;
+    }
+    ion-content{
+      padding: 0;
+      margin: 0;
+    }*/
   .content {
     position: absolute;
     top: 36%;
@@ -16,7 +24,7 @@ page-page0 {
     color: #B12A30;
     }
     .view{
-      background-image: url('../image/nu1.png');
+      background-image: url('../image/img7.jpg');
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -55,8 +63,12 @@ page-page0 {
   }
   #btn{
     position: absolute;
-    top:80%;
+    top:89%;
     left: 0;
+    height:10%;
+    width: 100%; 
+    padding-bottom:0%;
+    
     text-transform: uppercase;    
   }
   img.responsive

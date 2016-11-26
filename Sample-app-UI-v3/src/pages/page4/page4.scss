@@ -11,14 +11,20 @@ page-page4 {
     font-size: 15px;
     padding-left:5px; 
    }
-   /*.responsive
+   .view{
+      background-image: url('../image/img10.jpg');
+      background-repeat: no-repeat;
+      /*background-color: papayawhip;*/
+      background-size: cover;
+    }
+   .responsive
     {
     position: absolute;
-    max-width: 90%;
-    top: 10%;
-    left: 4%;
+    /*max-width: 90%;*/
+    top: 12%;
+    left: 5%;
     }
-  .responsive:empty
+  /*.responsive:empty
     {
     top: 10%;
     left: 4;

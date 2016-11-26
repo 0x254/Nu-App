@@ -16,7 +16,11 @@ page-page6{
     left: 0;
     text-transform: uppercase;
     }
-    
+    .view{
+    background-image: url('../image/img5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
     #outbtn{
     position: absolute;
     top:60%;
